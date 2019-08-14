@@ -1,6 +1,6 @@
 package test;
 
-import com.sxt.etl.util.ip.IPSeeker;
+import com.mashibing.etl.util.ip.IPSeeker;
 
 public class TestIPSeeker {
 	public static void main(String[] args) {

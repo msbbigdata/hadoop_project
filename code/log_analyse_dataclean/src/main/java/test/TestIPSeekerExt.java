@@ -2,8 +2,8 @@ package test;
 
 import java.util.List;
 
-import com.sxt.etl.util.IPSeekerExt;
-import com.sxt.etl.util.IPSeekerExt.RegionInfo;
+import com.mashibing.etl.util.IPSeekerExt;
+import com.mashibing.etl.util.IPSeekerExt.RegionInfo;
 
 
 public class TestIPSeekerExt {

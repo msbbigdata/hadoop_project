@@ -1,7 +1,7 @@
 package test;
 
-import com.sxt.etl.util.IPSeekerExt;
-import com.sxt.etl.util.LoggerUtil;
+import com.mashibing.etl.util.IPSeekerExt;
+import com.mashibing.etl.util.LoggerUtil;
 
 public class TestLoggerUtil {
     public static void main(String[] args) {

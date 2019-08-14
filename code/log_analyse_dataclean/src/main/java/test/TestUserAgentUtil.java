@@ -1,7 +1,7 @@
 package test;
 
-import com.sxt.etl.util.UserAgentUtil;
-import com.sxt.etl.util.UserAgentUtil.UserAgentInfo;
+import com.mashibing.etl.util.UserAgentUtil;
+import com.mashibing.etl.util.UserAgentUtil.UserAgentInfo;
 
 
 public class TestUserAgentUtil {

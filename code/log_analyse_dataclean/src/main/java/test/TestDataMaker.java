@@ -33,7 +33,7 @@ public class TestDataMaker {
 		Random r = new Random();
 		
 		Configuration conf = new Configuration();
-		conf.set("hbase.zookeeper.quorum", "node4");
+		conf.set("hbase.zookeeper.quorum", "node04");
 		Connection connection = ConnectionFactory.createConnection(conf);
 		Admin admin = connection.getAdmin();
 		Table hTable = connection.getTable(TableName.valueOf(TN));
@@ -55,7 +55,7 @@ public class TestDataMaker {
 				memberId = String.format("%08d", r.nextInt(99999999));
 			}
 			
-			Date d = tDataMaker.getDate("20171129");
+			Date d = tDataMaker.getDate("20190813");
 			
 			String serverTime = ""+d.getTime();
 			
